@@ -7,6 +7,13 @@ starttidspunkt = 12. December 2012 kl. 12:12:12 og
 sluttidspunkt = 12. December 2012 kl 13:13:13.
 (Hint: DTEnd)
 
+Initialiser nyt vEvent med
+(Hint: VEvent) 
+starttidspunkt = 11. November 2011 kl. 11:11:11 og
+(Hint: DTStart)
+sluttidspunkt = 11. December 2011 kl 11:12:13.
+(Hint: DTEnd)
+
 Initialiser nyt Event med
 starttidspunkt = 12. December 2012 kl. 12:12:12 og
 varighed = 1 time, 1 minut og 1 sekund.
