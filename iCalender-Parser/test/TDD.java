@@ -65,6 +65,19 @@ public class TDD {
 		
 		//1. Assert
 		assertEquals(summary, event.getSummary());
-	}	
+	}
+	
+	@Test
+	public void testTilfoejEmneMedDanskTegnTilEvent() {
+		//3. Setup
+		Event event = new Event(LocalDateTime.of(2017, 12, 19, 18, 0, 0), Duration.ofHours(6));
+		String summary = "Fødselsdag";
+		
+		//2. Execute
+		event.setSummary(summary);
+		
+		//1. Assert
+		assertEquals(summary, event.getSummary());
+	}
 
 }
