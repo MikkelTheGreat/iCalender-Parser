@@ -53,5 +53,18 @@ public class TDD {
 		
 		//4. Tear-down
 	}	
+	
+	@Test
+	public void testTilfoejEmneTilEvent() {
+		//3. Setup
+		Event event = new Event(LocalDateTime.of(2017, 12, 19, 18, 0, 0), Duration.ofHours(6));
+		String summary = "Julefrokost";
+		
+		//2. Execute
+		event.setSummary(summary);
+		
+		//1. Assert
+		assertEquals(summary, event.getSummary());
+	}	
 
 }
