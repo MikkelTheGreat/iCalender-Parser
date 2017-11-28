@@ -8,6 +8,7 @@ public class Event {
 	
 	private LocalDateTime start;
 	private LocalDateTime end;
+	private String summary;
 
 	public Event(LocalDateTime start, LocalDateTime end) {
 		this.start = start;
@@ -31,11 +32,11 @@ public class Event {
 	}
 
 	public String getSummary() {
-		return "Julefrokost";
+		return summary;
 	}
 
 	public void setSummary(String summary) {
-		
+		this.summary = summary;
 	}
 
 	
