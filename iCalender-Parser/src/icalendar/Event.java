@@ -9,6 +9,7 @@ public class Event {
 	private LocalDateTime start;
 	private LocalDateTime end;
 	private String summary;
+	private String description;
 
 	public Event(LocalDateTime start, LocalDateTime end) {
 		this.start = start;
@@ -37,6 +38,14 @@ public class Event {
 
 	public void setSummary(String summary) {
 		this.summary = summary;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;		
+	}
+
+	public String getDescription() {
+		return description;
 	}
 
 	

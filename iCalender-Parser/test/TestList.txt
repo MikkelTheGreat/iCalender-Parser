@@ -33,6 +33,10 @@ emne = "Fødselsdag"
 
 Tilføj beskrivelse til et Event.
 (Hint: Description)
+Beskrivelse = "Festen starter med snaps"
+
+Tilføj beskrivelse til et Event.
+Beskrivelse = "Mormors 85-års dag" +<linjeskift>+ "Vi bliver 50 mennesker."
 
 Tilføj unikt id til et Event.
 (Hint: UID)
